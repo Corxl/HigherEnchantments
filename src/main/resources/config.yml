@@ -1,0 +1,30 @@
+# Unbreaking books. Tier 1-3 are the different enchanting levels. Note: 1 costs less than 2 and so on.
+# To add an enchantment to a tier, use all caps and use the enum. Enums are found here -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+# Enchantment names are different on spigot because they are spastics. DIG_SPEED = Efficiency
+# Custom names can be added. To add a color use the prefix "&". Info on color codes -> https://htmlcolorcodes.com/minecraft-color-codes/
+# If you would like to add more tiers, copy and paste an existing tier and modify what you want. MAKE SURE THE INDENTS LINE UP.
+tools:
+  tier-1:
+    custom-name: ""
+    item-types:
+      - DIAMOND_PICKAXE
+      - DIAMOND_AXE
+      - DIAMOND_SHOVEL
+    enchantments:
+      DIG_SPEED: 5
+      DURABILITY: 5
+    upgrade-material: OBSIDIAN
+  tier-2:
+    custom-name: ""
+    item-types:
+      - DIAMOND_PICKAXE
+      - DIAMOND_AXE
+      - DIAMOND_SHOVEL
+    enchantments:
+      DIG_SPEED: 6
+      DURABILITY: 6
+    upgrade-material: CRYING_OBSIDIAN
+
+
+
+

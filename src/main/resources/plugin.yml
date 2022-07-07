@@ -1,0 +1,4 @@
+name: HigherEnchantBooks
+version: '${project.version}'
+main: me.corxl.higherenchantbooks.HigherEnchantBooks
+api-version: 1.19
